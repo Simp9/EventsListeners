@@ -22,10 +22,10 @@ namespace TestEventsListeners {
 
         public Interceptor() {
             this.StartPosition = FormStartPosition.Manual;
-            //this.Width = 0;
-            //this.Height = 0;
-            this.Left = 500;
-            this.Top = 500;
+            this.Width = 0;
+            this.Height = 0;
+            this.Left = -500;
+            this.Top = -500;
         }
 
         public static void GetInitialData()
